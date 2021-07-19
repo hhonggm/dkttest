@@ -146,7 +146,7 @@ html{position:relative;}
     .gnb_wrap .gnb_btn{display:none;}
     .gnb_wrap .inner{display:none;}
     .mb_gnb .gnb_wrap .inner{display:block;width: 200px;background: #fff;}
-    .gnb_wrap.on .inner{display:block;position: fixed;left: 0;top: 0;z-index: 1;width: 200px;height: 100vh;background: #fff;}
+    .gnb_wrap.on .inner{display:block;position: fixed;left: 0;top: 0;z-index: 1;width: 240px;height: 100vh;background: #fff;}
     .gnb_wrap .inner .mobile-close{display: block;position:absolute;top: 0;left:230px;width:20px;height:20px;background: url(../images/common/common_ir.png) -202px -28px;font-size: 0;}
 
     .layout{padding:0;}
