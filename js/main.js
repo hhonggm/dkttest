@@ -13,7 +13,7 @@ $(document).ready(function(){
 			event.returnValue = false
 		}
 		var $this = $(this),
-			$scope = $this.parents('.ui-tablist'),
+			$scope = $this.parents('#ui-tablist'),
 			$tabButtons = $scope.find('.js-tab'),
 			$ovTab = $tabButtons.filter('.on')
 		if ($ovTab[0] !== $this[0]) {
