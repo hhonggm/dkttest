@@ -124,7 +124,7 @@ html{position:relative;}
 #ui-tablist #tab-panel2 .story_cont3 .slick-slide a{display:block;width:100%;height:100%;}
 #ui-tablist #tab-panel2 .story_cont3 .thumb{overflow:hidden;max-width: 592px;height: 256px;margin: 0 auto;}
 #ui-tablist #tab-panel2 .story_cont3 .control{position:absolute;left:50%;top:50%;width: 632px;transform: translate(-50%,-50%);}
-#ui-tablist #tab-panel2 .story_cont3 .control button{float: left;width: 21px;height: 21px;background: url(../images/main/main_ir.png) -216px -89px;transform: rotate(180deg);font-size:0;}
+#ui-tablist #tab-panel2 .story_cont3 .control button{float: left;width: 41px;height: 41px;background: url(../images/main/main_ir.png) -216px -114px;transform: rotate(180deg);font-size:0;}
 #ui-tablist #tab-panel2 .story_cont3 .control .next{float:right;transform:rotate(0deg)}
 
 #foot_layout{padding: 20px 0;background:#f1f1f1;}
@@ -189,9 +189,7 @@ html{position:relative;}
     #ui-tablist #tab-panel2 .story_cont1 .bbs_list li:nth-child(even){margin-left:0;}
     #ui-tablist #tab-panel2 .story_cont1 .bbs_list li .thumb{height:106px;}
     #ui-tablist #tab-panel2 .story_cont1 .bbs_list li .tit{height:33px;padding: 6px 8px;}
-    #ui-tablist #tab-panel2 .story_cont1 .bbs_list li .tit strong{
-    font-size: 10px;
-}
+    #ui-tablist #tab-panel2 .story_cont1 .bbs_list li .tit strong{font-size: 10px;}
     #ui-tablist #tab-panel2 .story_cont1 .bbs_list li:first-child{float:none;width:100%;}
     #ui-tablist #tab-panel2 .story_cont1 .bbs_list li:first-child .tit strong{font-size: 13px;}
     #ui-tablist #tab-panel2 .story_cont1 .bbs_list li:first-child{height:212px;margin-bottom: 1px;}
@@ -218,6 +216,7 @@ html{position:relative;}
     #ui-tablist #tab-panel2 .story_cont3 .slick-dots li button{display:block;width: 7px;height: 7px;border-radius:50%;background: #c3c3c3;font-size:0;}
     #ui-tablist #tab-panel2 .story_cont3 .slick-dots li.slick-active button{;background:#434343}
     #ui-tablist #tab-panel2 .story_cont3 .control{bottom: -10px;top: auto;width: 40%;transform: translateX(-50%);}
+    #ui-tablist #tab-panel2 .story_cont3 .control button{width:21px;height:21px;}
     #ui-tablist #tab-panel2 .story_cont3 .thumb{max-width: 100%;height: auto;}
 
     #foot_layout{padding: 17px 0;}
