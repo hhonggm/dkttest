@@ -20,8 +20,8 @@ $(document).ready(function(){
             var $tabPanels = $scope.find('.tabpanel'),
                 $ovPanel = $tabPanels.filter('.on')
             $ovTab.removeClass('on');
-            $ovTab.children('a').attr('aria-selected', 'false');
-            $ovTab.children('a').attr("title","숨김");
+            $ovTab.find('a').attr('aria-selected', 'false');
+            $ovTab.find('a').attr("title","숨김");
 
             $this.parents('li').addClass('on');
             $this.attr('aria-selected', 'true');
