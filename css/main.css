@@ -132,6 +132,7 @@ html{position:relative;}
 
 @media (max-width: 1017px){
     #ui-tablist #tab-panel1 .bbs_list li .tit strong{max-width: calc(100% - 25px);}
+    #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li a{padding-right:110px}
 }
 @media (max-width: 767px){
     #top_layout{height:100px;padding-top: 33px;border-bottom: 2px solid #ebebeb;}
@@ -176,42 +177,38 @@ html{position:relative;}
     #ui-tablist #tab-panel1 .bbs_list li .label .type4{background:none;color: #c3aa12;}
     #ui-tablist #tab-panel1 .bbs_list li .label .type5{background:none;color: #6a2c2e;}
     #ui-tablist #tab-panel1 .bbs_list li .tit strong{font-size:32px;}
-
-
-
-#ui-tablist #tab-panel2 .tit{height:21px}
-#ui-tablist #tab-panel2 .tit1{width: 63px;background-position: 0 -88px;}
-#ui-tablist #tab-panel2 .tit2{width: 59px;background-position: -156px -88px;}
-#ui-tablist #tab-panel2 .tit3{width: 100px;background-position: -56px -88px;}
-#ui-tablist #tab-panel2 .story_cont1{margin-bottom:35px;}
-#ui-tablist #tab-panel2 .story_cont1 .bbs_list li{width: calc(50% - 1px);margin-left: 2px;}
-#ui-tablist #tab-panel2 .story_cont1 .bbs_list li:nth-child(even){margin-left:0;}
-#ui-tablist #tab-panel2 .story_cont1 .bbs_list li .tit strong{font-size:15px;}
-#ui-tablist #tab-panel2 .story_cont1 .bbs_list li:first-child{float:none;width:100%;}
-#ui-tablist #tab-panel2 .story_cont1 .bbs_list li:first-child .tit strong{font-size:25px;}
-#ui-tablist #tab-panel2 .story_cont2{margin-bottom:44px;}
-#ui-tablist #tab-panel2 .story_cont2 .rbox,
-#ui-tablist #tab-panel2 .story_cont2 .lbox{float:none;width: 100%;margin-bottom:35px;}
-#ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap{padding: 9px 0;}
-#ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li{padding: 4px 0;border:0;}
-#ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li a{padding-left:34px;padding-right: 178px;}
-#ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li strong{font-size:18px;}
-#ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li .num{left: 13px;color:#ffcb54;font-size: 18px;}
-#ui-tablist #tab-panel2 .story_cont2 .rbox:after{display:block;clear:both;content:'';}
-#ui-tablist #tab-panel2 .story_cont2 .rbox .new_slide{float:left;width:50%;}
-#ui-tablist #tab-panel2 .story_cont2 .rbox .new_slide .grap{padding-bottom:55%;}
-#ui-tablist #tab-panel2 .story_cont2 .rbox .new_slide .item .thumb{width:100%;height: auto;}
-#ui-tablist #tab-panel2 .story_cont2 #new_slide2 .item{width:100%;}
-#ui-tablist #tab-panel2 .story_cont2 #new_slide2 .item a{padding-left:0;}
-#ui-tablist #tab-panel2 .story_cont2 #new_slide2 .item .thumb{position:relative;width: 140px;height:100px;margin:0 auto 20px;}
-#ui-tablist #tab-panel2 .story_cont3 .slick-dots{width: 100%;margin-top: 10px;border-radius: 30px;text-align: center;}
-#ui-tablist #tab-panel2 .story_cont3 .slick-dots li{display:inline-block;margin-right: 14px;vertical-align: middle;}
-#ui-tablist #tab-panel2 .story_cont3 .slick-dots li:last-child{margin-right:0;}
-#ui-tablist #tab-panel2 .story_cont3 .slick-dots li button{display:block;width: 14px;height: 14px;border-radius:50%;background: #c3c3c3;font-size:0;}
-#ui-tablist #tab-panel2 .story_cont3 .slick-dots li.slick-active button{;background:#434343}
-#ui-tablist #tab-panel2 .story_cont3 .control{bottom: -10px;top: auto;width: 40%;transform: translateX(-50%);}
-
-#ui-tablist #tab-panel2 .story_cont3 .thumb{max-width: 100%;height: auto;}
+    #ui-tablist #tab-panel2 .tit{height:21px}
+    #ui-tablist #tab-panel2 .tit1{width: 63px;background-position: 0 -88px;}
+    #ui-tablist #tab-panel2 .tit2{width: 59px;background-position: -156px -88px;}
+    #ui-tablist #tab-panel2 .tit3{width: 100px;background-position: -56px -88px;}
+    #ui-tablist #tab-panel2 .story_cont1{margin-bottom:35px;}
+    #ui-tablist #tab-panel2 .story_cont1 .bbs_list li{width: calc(50% - 1px);margin-left: 2px;}
+    #ui-tablist #tab-panel2 .story_cont1 .bbs_list li:nth-child(even){margin-left:0;}
+    #ui-tablist #tab-panel2 .story_cont1 .bbs_list li .tit strong{font-size:15px;}
+    #ui-tablist #tab-panel2 .story_cont1 .bbs_list li:first-child{float:none;width:100%;}
+    #ui-tablist #tab-panel2 .story_cont1 .bbs_list li:first-child .tit strong{font-size:25px;}
+    #ui-tablist #tab-panel2 .story_cont2{margin-bottom:44px;}
+    #ui-tablist #tab-panel2 .story_cont2 .rbox,
+    #ui-tablist #tab-panel2 .story_cont2 .lbox{float:none;width: 100%;margin-bottom:35px;}
+    #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap{padding: 9px 0;}
+    #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li{padding: 4px 0;border:0;}
+    #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li a{padding-left:34px;padding-right: 178px;}
+    #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li strong{font-size:18px;}
+    #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li .num{left: 13px;color:#ffcb54;font-size: 18px;}
+    #ui-tablist #tab-panel2 .story_cont2 .rbox:after{display:block;clear:both;content:'';}
+    #ui-tablist #tab-panel2 .story_cont2 .rbox .new_slide{float:left;width:50%;}
+    #ui-tablist #tab-panel2 .story_cont2 .rbox .new_slide .grap{padding-bottom:55%;}
+    #ui-tablist #tab-panel2 .story_cont2 .rbox .new_slide .item .thumb{width:100%;height: auto;}
+    #ui-tablist #tab-panel2 .story_cont2 #new_slide2 .item{width:100%;}
+    #ui-tablist #tab-panel2 .story_cont2 #new_slide2 .item a{padding-left:0;}
+    #ui-tablist #tab-panel2 .story_cont2 #new_slide2 .item .thumb{position:relative;width: 140px;height:100px;margin:0 auto 20px;}
+    #ui-tablist #tab-panel2 .story_cont3 .slick-dots{width: 100%;margin-top: 10px;border-radius: 30px;text-align: center;}
+    #ui-tablist #tab-panel2 .story_cont3 .slick-dots li{display:inline-block;margin-right: 14px;vertical-align: middle;}
+    #ui-tablist #tab-panel2 .story_cont3 .slick-dots li:last-child{margin-right:0;}
+    #ui-tablist #tab-panel2 .story_cont3 .slick-dots li button{display:block;width: 14px;height: 14px;border-radius:50%;background: #c3c3c3;font-size:0;}
+    #ui-tablist #tab-panel2 .story_cont3 .slick-dots li.slick-active button{;background:#434343}
+    #ui-tablist #tab-panel2 .story_cont3 .control{bottom: -10px;top: auto;width: 40%;transform: translateX(-50%);}
+    #ui-tablist #tab-panel2 .story_cont3 .thumb{max-width: 100%;height: auto;}
 
     #foot_layout{padding: 33px 0;}
     #foot_layout p{font-size:22px;}
