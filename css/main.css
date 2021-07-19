@@ -16,7 +16,7 @@ html{position:relative;}
 .gnb_wrap .gnb_btn{position:absolute;top: 100px;right: -29px;width: 28px;height: 300px;background: #ffcc56;border: 1px solid #f8bb4f;background-size: 100%;border-radius: 0 10px 10px 0;font-size: 0;}
 .gnb_wrap .gnb_btn:before{position:absolute;left:50%;top:50%;width:16px;height:24px;transform:translate(-50%,-50%);background: url(../images/common/common_ir.png) -124px 0;content:'';}
 .gnb_wrap .inner{display:none;}
-.gnb_wrap .inner .depth1{overflow-y: auto;padding:49px 22px;}
+.gnb_wrap .inner .depth1{overflow-y: auto;padding: 49px 26px;}
 .gnb_wrap .inner .depth1 > li{margin-bottom: 50px;}
 .gnb_wrap .inner .depth1 li a{display:block;width:100%;height:100%;}
 .gnb_wrap .inner .depth1 li .tit{background:url(../images/main/main_ir.png);font-size:0;}
