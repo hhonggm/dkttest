@@ -1,42 +1,42 @@
 /// basic tab (WAI-ARIA Roles)
 $(document).ready(function(){
-	$(".tabpanel:first-of-type").addClass("on").attr("tabindex", "0");
-	$(".js-tab").eq(0).addClass("on");
-	$(".js-tab").eq(0).find('a').attr("tabindex", "0").attr("aria-selected", "true").attr("title","열림");
+    $(".tabpanel:first-of-type").addClass("on").attr("tabindex", "0");
+    $(".js-tab").eq(0).addClass("on");
+    $(".js-tab").eq(0).find('a').attr("tabindex", "0").attr("aria-selected", "true").attr("title","열림");
 
 
 
-	$(".js-tab a").on("click", function(event){
-		if (event.preventDefault) {
-			event.preventDefault()
-		} else {
-			event.returnValue = false
-		}
-		var $this = $(this),
-			$scope = $this.parents('#ui-tablist'),
-			$tabButtons = $scope.find('.js-tab'),
-			$ovTab = $tabButtons.filter('.on')
-		if ($ovTab[0] !== $this[0]) {
-			var $tabPanels = $scope.find('.tabpanel'),
-				$ovPanel = $tabPanels.filter('.on')
-			$ovTab.removeClass('on');
-			$ovTab.children('a').attr('aria-selected', 'false');
-			$ovTab.children('a').attr("title","숨김");
+    $(".js-tab a").on("click", function(event){
+        if (event.preventDefault) {
+            event.preventDefault()
+        } else {
+            event.returnValue = false
+        }
+        var $this = $(this),
+            $scope = $this.parents('#ui-tablist'),
+            $tabButtons = $scope.find('.js-tab'),
+            $ovTab = $tabButtons.filter('.on')
+        if ($ovTab[0] !== $this[0]) {
+            var $tabPanels = $scope.find('.tabpanel'),
+                $ovPanel = $tabPanels.filter('.on')
+            $ovTab.removeClass('on');
+            $ovTab.children('a').attr('aria-selected', 'false');
+            $ovTab.children('a').attr("title","숨김");
 
-			$this.parents('li').addClass('on');
-			$this.attr('aria-selected', 'true');
-			$this.attr("title","열림");
-			var href = $this.attr("aria-controls");
-			$ovPanel.removeClass('on');
-			$("[id="+href+"]").addClass('on');
+            $this.parents('li').addClass('on');
+            $this.attr('aria-selected', 'true');
+            $this.attr("title","열림");
+            var href = $this.attr("aria-controls");
+            $ovPanel.removeClass('on');
+            $("[id="+href+"]").addClass('on');
 
 
-		}
-		event.preventDefault();
+        }
+        event.preventDefault();
         $('div[data-slider]').slick('setPosition');
-	});
+    });
 
-	 //gnb
+     //gnb
     $('.gnb_wrap .gnb_btn').click(function (e) {
         $('.gnb_wrap').toggleClass('on');
         if ($('.gnb_wrap').hasClass('on')) {
@@ -57,9 +57,17 @@ $(document).ready(function(){
         $('.gnb_wrap').removeClass('on');
     });
 
-	new_slide1();
-	new_slide2();
-	story_cont3();
+    new_slide1();
+    new_slide2();
+    story_cont3();
+
+    $(window).on('resize', function () {
+        var windowWidth = $(window).width();
+        if(windowWidth < 768){
+            console.log("dddd");
+            $(".gnb_wrap, #body_layout .layout").removeAttr('style');
+        }
+    });
 });
 
 
@@ -100,7 +108,7 @@ function story_cont3()  {
     var $mainslider = $boardList.find('.photo_list--slider');
 
     $mainslider.slick({
-	  	centerMode: true,
+        centerMode: true,
         draggable: true,
         arrows: true,
         dots: false,
