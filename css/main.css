@@ -82,11 +82,11 @@ html{position:relative;}
 #ui-tablist #tab-panel1 .bbs_list li p em:last-child:after{display:none;}
 #ui-tablist #tab-panel1 .bbs_list li .label{position:absolute;left:270px;bottom:10px}
 #ui-tablist #tab-panel1 .bbs_list li .label span{display: inline-block;margin-right: 5px;margin-bottom: 3px;padding: 0 10px;border-radius: 3px;line-height: 24px;font-size: 12px;font-weight: 500;color:#fff;}
-#ui-tablist #tab-panel1 .bbs_list li .label .type1{background: #909398;}
-#ui-tablist #tab-panel1 .bbs_list li .label .type2{background: #6f9e96;color:#fff;}
-#ui-tablist #tab-panel1 .bbs_list li .label .type3{background: #888ebd;color:#fff;}
-#ui-tablist #tab-panel1 .bbs_list li .label .type4{background: #a09700;color:#fff;}
-#ui-tablist #tab-panel1 .bbs_list li .label .type5{background: #a37a7b;color:#fff;}
+#ui-tablist #tab-panel1 .bbs_list li .label .type1{background: #727578;}
+#ui-tablist #tab-panel1 .bbs_list li .label .type2{background: #597b75;color:#fff;}
+#ui-tablist #tab-panel1 .bbs_list li .label .type3{background: #6D7197;color:#fff;}
+#ui-tablist #tab-panel1 .bbs_list li .label .type4{background: #7B7500;color:#fff;}
+#ui-tablist #tab-panel1 .bbs_list li .label .type5{background: #8F6C6D;color:#fff;}
 
 #ui-tablist #tab-panel2{padding: 19px 0 35px;}
 #ui-tablist #tab-panel2 .tit{display: block;height: 18px;margin-bottom:15px;background: url(../images/main/main_ir.png);}
