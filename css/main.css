@@ -253,7 +253,7 @@ html{position:relative;}
     #ui-tablist #tab-panel2 .story_cont3 .slick-dots li:last-child{margin-right:0;}
     #ui-tablist #tab-panel2 .story_cont3 .slick-dots li button{display:block;width: 7px;height: 7px;border-radius:50%;background: #c3c3c3;font-size:0;}
     #ui-tablist #tab-panel2 .story_cont3 .slick-dots li.slick-active button{;background:#434343}
-    #ui-tablist #tab-panel2 .story_cont3 .control{bottom: 0;top: auto;width: 40%;transform: translateX(-50%);}
+    #ui-tablist #tab-panel2 .story_cont3 .control{bottom: 0;top: auto;width: 106px;transform: translateX(-50%);}
     #ui-tablist #tab-panel2 .story_cont3 .control button{width:21px;height:21px;background-position: -114px -60px;background-size: 1505%;}
     #ui-tablist #tab-panel2 .story_cont3 .thumb{max-width: 100%;height: auto;}
 
