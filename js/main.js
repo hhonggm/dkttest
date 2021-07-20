@@ -37,7 +37,7 @@ $(document).ready(function(){
     });
 
      //gnb
-    $('.gnb_wrap .gnb_btn').click(function (e) {
+    $('.gnb_wrap .gnb_btn ,.gnb_wrap .gnb_btnClose').click(function (e) {
         $('.gnb_wrap').toggleClass('on');
         if ($('.gnb_wrap').hasClass('on')) {
             $('.gnb_wrap').animate({left:0},500);
