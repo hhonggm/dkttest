@@ -111,8 +111,8 @@ html{position:relative;}
 #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li a{display:block;position: relative;width:100%;height:100%;padding: 0 205px 0 25px;}
 #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li .num{display:block;position:absolute;left:0;top:50%;left:10px;transform: translateY(-50%);font-size: 14px;color: #000;font-weight: bold;line-height: 35px;}
 #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li strong{display:block;overflow: hidden;font-size:14px;color:#000;font-weight:bold;line-height: 35px;white-space: nowrap;text-overflow: ellipsis;}
-#ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li span{display: block;position:absolute;right:14px;top:50%;width: 80px;height: 14px;background: url(../images/main/main_ir.png) 0 -141px;transform:translateY(-50%);font-size: 0;}
-#ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li span em{position:absolute;left:0;top:0;height: 100%;background: url(../images/main/main_ir.png) -82px -141px;font-size:0;}
+#ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li span{display: block;position:absolute;right:14px;top:50%;width: 80px;height: 14px;background: url(../images/main/main_ir.png) 0 -141px;transform:translateY(-50%);}
+#ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li span em{position:absolute;left:0;top:0;height: 100%;background: url(../images/main/main_ir.png) -82px -141px;}
 #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li .star5 em{width:100%;}
 #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li .star4_5 em{width: 92%;}
 #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li .star4 em{width: 81%;}
