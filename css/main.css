@@ -46,9 +46,13 @@ html{position:relative;}
 .gnb_wrap .inner .depth1 li .tit8:focus{background-position: -285px -87px;}
 .gnb_wrap .inner .depth2{margin-top:20px;margin-left: 12px;}
 .gnb_wrap .inner .depth2 > li{margin-bottom: 15px;}
-.gnb_wrap .inner .mobile-close{display:none;}
+.gnb_wrap .inner .mobile-close{display:none}
+.gnb_wrap .inner .gnb_btnClose{}
+.gnb_wrap .inner .gnb_btnClose:before{position:absolute;left:50%;top:50%;width:16px;height:24px;transform: translate(-50%,-50%) rotate(180deg);background: url(../images/common/common_ir.png) -124px 0;content:'';}
+
 .gnb_wrap.on .gnb_btn:before{transform: translate(-50%,-50%) rotate(180deg);}
 .gnb_wrap.on .inner{display:block}
+.gnb_wrap.on .inner .gnb_btnClose{display:block}
 
 #ui-tablist{border: 1px solid #c6cbce;border-top:0;}
 #ui-tablist .tab-ul:after{display:block;clear:both;content:'' ;}
