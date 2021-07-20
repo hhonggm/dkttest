@@ -6,6 +6,7 @@ audio,canvas,progress,video {display: inline-block;}
 html, body, div,  p, h1, h2, h3, h4, h5, h6, dl, dt, dd, ol, ul, li, blockquote, pre, button, fieldset, form, legend,table, caption, tbody, tfoot, thead, tr, th, td, iframe, article, aside, canvas, details, embed, textarea, figure, figcaption, header, footer, main, menu, nav, section, summary, audio, video, template {margin: 0;padding: 0;border: 0;font-size: inherit;font-family: inherit;vertical-align: baseline;box-sizing: border-box;word-break: keep-all;}
 a, span, em{box-sizing: border-box}
 a:link,a:visited{color:#494949}
+a:focus,button:focus{outline:1px dotted #000}
 a,a:active,a:hover,a:link,a:visited{text-decoration:none}
 img{border:none;}
 img, video, audio {max-width:100%; max-height:100%;}
