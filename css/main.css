@@ -47,9 +47,8 @@ html{position:relative;}
 .gnb_wrap .inner .depth2{margin-top:20px;margin-left: 12px;}
 .gnb_wrap .inner .depth2 > li{margin-bottom: 15px;}
 .gnb_wrap .inner .mobile-close{display:none}
-.gnb_wrap .gnb_btnClose{position:absolute;top: 100px;right: -29px;width: 28px;height: 300px;background: #ffcc56;border: 1px solid #f8bb4f;background-size: 100%;border-radius: 0 10px 10px 0;}
+.gnb_wrap .gnb_btnClose{display:none;position:absolute;top: 100px;right: -29px;width: 28px;height: 300px;background: #ffcc56;border: 1px solid #f8bb4f;background-size: 100%;border-radius: 0 10px 10px 0;}
 .gnb_wrap .gnb_btnClose:before{position:absolute;left:50%;top:50%;width:16px;height:24px;transform: translate(-50%,-50%) rotate(180deg);background: url(../images/common/common_ir.png) -124px 0;content:'';}
-
 .gnb_wrap.on .gnb_btn:before{transform: translate(-50%,-50%) rotate(180deg);}
 .gnb_wrap.on .inner{display:block}
 .gnb_wrap.on .gnb_btnClose{display:block}
