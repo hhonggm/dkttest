@@ -109,6 +109,7 @@ html{position:relative;}
 #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap{background:#fff;}
 #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li{border-bottom:1px solid #eeeeee;}
 #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li a{display:block;position: relative;width:100%;height:100%;padding: 0 205px 0 25px;}
+#ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li a:focus{outline:1px dotted #000}
 #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li .num{display:block;position:absolute;left:0;top:50%;left:10px;transform: translateY(-50%);font-size: 14px;color: #000;font-weight: bold;line-height: 35px;}
 #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li strong{display:block;overflow: hidden;font-size:14px;color:#000;font-weight:bold;line-height: 35px;white-space: nowrap;text-overflow: ellipsis;}
 #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li span{display: block;position:absolute;right:14px;top:50%;width: 80px;height: 14px;background: url(../images/main/main_ir.png) 0 -141px;transform:translateY(-50%);}
