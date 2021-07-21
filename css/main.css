@@ -169,7 +169,7 @@ html{position:relative;}
     #top_layout .layout{padding: 0 15px;}
     #top_layout .utile_wrap{position:absolute;right: 15px;top:0;}
     #top_layout .utile_wrap .mo{display:block}
-    #top_layout .utile_wrap .mo button{display: block;width: 26px;height: 14px;background: url(../images/common/common_ir.png) -84px -28px;font-size: 0;}
+    #top_layout .utile_wrap .mo button{display: block;width: 26px;height: 15px;background: url(../images/common/common_ir.png) -84px -28px;font-size: 0;}
     #top_layout .logo{width: 80px;height: 16px;background-position: 0 -28px;}
     .gnb_wrap{display: none;position: fixed;left:0;width: 100%;background: rgba(0,0,0,0.6);border: 0;}
     .gnb_wrap.on{display: block}
