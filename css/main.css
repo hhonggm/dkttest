@@ -72,7 +72,7 @@ html{position:relative;}
 #ui-tablist #tab-panel1 .bbs_list li .thumb{overflow: hidden;position:absolute;left:0;top:0;width: 241px;height: 176px;}
 #ui-tablist #tab-panel1 .bbs_list li .thumb img{position:absolute;left:50%;top:50%;height: 100%;transform:translate(-50%,-50%);}
 #ui-tablist #tab-panel1 .bbs_list li .tit{margin-bottom:5px;}
-#ui-tablist #tab-panel1 .bbs_list li .tit strong{display: inline-block;overflow:hidden;max-width: calc(100% - 25px);font-size:20px;font-weight:bold;white-space:nowrap;text-overflow:ellipsis;vertical-align: middle;color: #223050;letter-spacing: -0.1em;line-height: 1.2;}
+#ui-tablist #tab-panel1 .bbs_list li .tit strong{display: inline-block;overflow:hidden;max-width: calc(100% - 25px);font-size:20px;font-weight:bold;white-space:nowrap;text-overflow:ellipsis;vertical-align: middle;color: #223050;letter-spacing: -0.05em;line-height: 1.2;}
 #ui-tablist #tab-panel1 .bbs_list li .tit span{display:inline-block;width: 18px;height: 18px;margin-left: 5px;background: url(../images/main/main_ir.png) -364px 0;vertical-align:middle;}
 #ui-tablist #tab-panel1 .bbs_list li .tit .new{background-position:-364px 0;}
 #ui-tablist #tab-panel1 .bbs_list li .tit .hit{background-position: -383px 0;}
