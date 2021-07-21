@@ -3,9 +3,6 @@ $(document).ready(function(){
     $(".tabpanel:first-of-type").addClass("on").attr("tabindex", "0");
     $(".js-tab").eq(0).addClass("on");
     $(".js-tab").eq(0).find('a').attr("tabindex", "0").attr("aria-selected", "true").attr("title","열림");
-
-
-
     $(".js-tab a").on("click", function(event){
         if (event.preventDefault) {
             event.preventDefault()
@@ -64,7 +61,6 @@ $(document).ready(function(){
     $(window).on('resize', function () {
         var windowWidth = $(window).width();
         if(windowWidth < 768){
-            console.log("dddd");
             $(".gnb_wrap, #body_layout .layout").removeAttr('style');
         }
     });
