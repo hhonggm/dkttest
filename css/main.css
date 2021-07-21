@@ -4,7 +4,7 @@ html{position:relative;}
 .layout{position:relative;padding:0 26px;}
 
 #top_layout{height:64px;padding: 18px 0 0;border-bottom:1px solid #ccc;}
-#top_layout .logo{width:120px;height: 26px;background:url(../images/common/common_ir.png) 0 0;}
+#top_layout .logo{width:120px;height: 26px;background: #fff url(../images/common/common_ir.png) 0 0;}
 #top_layout .logo a{display:block;width:100%;height:100%;}
 #top_layout .utile_wrap .mo{display:none;}
 
@@ -19,7 +19,7 @@ html{position:relative;}
 .gnb_wrap .inner .depth1{overflow-y: auto;padding: 49px 26px;}
 .gnb_wrap .inner .depth1 > li{margin-bottom: 50px;}
 .gnb_wrap .inner .depth1 li a{display:block;width:100%;height:100%;}
-.gnb_wrap .inner .depth1 li .tit{background:url(../images/main/main_ir.png);}
+.gnb_wrap .inner .depth1 li .tit{background: #fff url(../images/main/main_ir.png);}
 .gnb_wrap .inner .depth1 li .tit1{width:100px;height: 16px;background-position: 0px -31px;}
 .gnb_wrap .inner .depth1 li .tit1:hover,
 .gnb_wrap .inner .depth1 li .tit1:focus{background-position: -0 -49px;}
