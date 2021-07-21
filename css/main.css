@@ -127,6 +127,7 @@ html{position:relative;}
 #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li .star1_5 em{width: 30%;}
 #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li .star1 em{width: 18%;}
 #ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li .star0_5 em{width: 10%;}
+#ui-tablist #tab-panel2 .story_cont2 .lbox .rank_wrap li .star0 em{width: 0%;}
 #ui-tablist #tab-panel2 .story_cont2 .rbox{float:right;width: calc(50% - 5px);}
 #ui-tablist #tab-panel2 .story_cont2 .rbox .new_slide{position: relative;padding: 6px 9px 7px;background:#fff;}
 #ui-tablist #tab-panel2 .story_cont2 .rbox .new_slide em{display:block;margin-bottom: 5px;font-size:14px;color:#808080;}
