@@ -23,12 +23,12 @@ html{position:relative;}
 .gnb_wrap .inner .depth1 li .tit1{width:100px;height: 16px;background-position: 0px -31px;}
 .gnb_wrap .inner .depth1 li .tit1:hover,
 .gnb_wrap .inner .depth1 li .tit1:focus{background-position: -0 -49px;}
-.gnb_wrap .inner .depth1 li .tit2{width: 69px;height: 15px;background-position: -103px -34px;}
+.gnb_wrap .inner .depth1 li .tit2{width: 69px;height: 15px;background-position: -102px -34px;}
 .gnb_wrap .inner .depth1 li .tit2:hover,
-.gnb_wrap .inner .depth1 li .tit2:focus{background-position: -103px -50px;}
-.gnb_wrap .inner .depth1 li .tit3{width:100px;height: 14px;background-position: -175px -34px;}
+.gnb_wrap .inner .depth1 li .tit2:focus{background-position: -102px -50px;}
+.gnb_wrap .inner .depth1 li .tit3{width:100px;height: 14px;background-position: -174px -34px;}
 .gnb_wrap .inner .depth1 li .tit3:hover,
-.gnb_wrap .inner .depth1 li .tit3:focus{background-position: -175px -50px;}
+.gnb_wrap .inner .depth1 li .tit3:focus{background-position: -174px -50px;}
 .gnb_wrap .inner .depth1 li .tit4{width: 31px;height: 17px;background-position: 0px -67px;}
 .gnb_wrap .inner .depth1 li .tit4:hover,
 .gnb_wrap .inner .depth1 li .tit4:focus{background-position: 0 -86px;}
